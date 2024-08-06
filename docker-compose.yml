@@ -1,8 +1,8 @@
 version: '3.7'
 services:
   kener:
-    image: rajnandan1/kener:latest # assuming this is final namespace/image
-    container_name: kener
+    image: DucManh206/kener-forked:latest # assuming this is final namespace/image
+    container_name: kener-forked
     environment:
       - TZ=Etc/GMT
       #- GH_TOKEN=
