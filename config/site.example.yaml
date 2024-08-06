@@ -1,0 +1,43 @@
+title: "Asaka - Status Page"
+home: "/"
+logo: "https://panel.asakacloud.vn/logo.png"
+github:
+    owner: "Fork by DucManh206"
+    repo: "kener"
+    incidentSince: 48
+metaTags:
+    description: "Asaka Cloud Status"
+    keywords: "Asaka Cloud, Status Asaka, AsakaCloud Status, Asaka Uptime, AsakaCloud real-time status updates, asaka status page"
+    og:description: "Asaka Cloud Uptime Reporting"
+    og:image: "https://kener.ing/ss.png"
+    og:title: "Fork from Kener - Open-Source and Modern looking Node.js Status Page for Effortless Incident Management"
+    og:type: "website"
+    og:site_name: "Kener"
+    twitter:card: "summary_large_image"
+    twitter:site: "@_DucManh206_"
+    twitter:creator: "@_DucManh206_"
+    twitter:image: "https://kener.ing/ss.png"
+    twitter:title: "Fork from Kener: Open-Source and Modern looking Node.js Status Page for Effortless Incident Management"
+    twitter:description: "Kener: Open-source Node.js status page tool, designed to make service monitoring and incident handling a breeze. It offers a sleek and user-friendly interface that simplifies tracking service outages and improves how we communicate during incidents. And the best part? Kener integrates seamlessly with GitHub, making incident management a team effort—making it easier for us to track and fix issues together in a collaborative and friendly environment."
+nav:
+    - name: "Home Page"
+      url: "https://asakacloud.vn"
+    - name: "Discord"
+      url: "https://discord.asakacloud.vn"
+hero:
+    title: AsakaCloud Uptime Reporting
+    subtitle: Let you know what's happen on our system.
+footerHTML: |
+    Hosted by 
+    <a href="https://asakacloud.vn" target="_blank" rel="noreferrer" class="font-medium underline underline-offset-4">
+      AsakaCloud
+    </a>
+    cheap and powerful hosting provider.
+i18n:
+    defaultLocale: "en"
+    locales:
+        vi: "Tiếng Việt"
+        en: "English"
+        hi: "हिन्दी"
+        zh-CN: "中文"
+        ja: "日本語"

@@ -1,0 +1,39 @@
+- name: Panel
+  description: Front Of Your View - If it downed, it didn't mean it come an end.
+  tag: "AsakaPanel"
+  image: "https://pterodactyl.io/logos/pterry.svg"
+  api:
+      method: GET
+      url: https://panel.asakacloud.vn
+- name: Node 4
+  description: One in our sexy network
+  tag: "node4"
+  ping: 
+    hostsV4: 
+      - n4.asaka.cloud
+    hostsV6:
+      - 0:0:0:0:0:0:0:1
+- name: Node 5
+  description: One in our sexy network
+  tag: "node5"
+  ping:
+    hostsV4:
+      - n5.asaka.cloud
+    hostsV6:
+      - 0:0:0:0:0:0:0:1
+- name: Node 6
+  description: One in our sexy network
+  tag: "node6"
+  ping:
+    hostsV4:
+      - n6.asaka.cloud
+    hostsV6:
+      - 0:0:0:0:0:0:0:1
+- name: Node 7
+  description: Serious Please ??
+  tag: "node7"
+  ping:
+    hostsV4:
+      - n7.asaka.cloud
+    hostsV6:
+      - 0:0:0:0:0:0:0:1
