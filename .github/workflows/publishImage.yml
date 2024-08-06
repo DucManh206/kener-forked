@@ -7,11 +7,11 @@ jobs:
   docker:
     run-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v2
 
       - name: Login Docker Hub
-        uses: docker/login-action@v1
+        uses: docker/login-action@v2
         with: 
           username: ${{ secrects.DOCKERHUB_USERNAME }}
           password: ${{ secrects.DOCKERHUB_ACCESS_TOKEN }}
